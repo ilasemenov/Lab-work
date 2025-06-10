@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 задание</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            height: 50px;
+			text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+	<h2>5 вариант</h2>
+    <table>
+        <tr>
+            <td>Вид</td>
+            <td rowspan="2">Имя</td>
+            <td rowspan="2">Возраст</td>
+            <td rowspan="2">Цвет</td>
+            <td rowspan="3">Владелец</td>
+            <td rowspan="3">Контакт</td>
+            <td>Город</td>
+        </tr>
+        <tr>
+            <td>Собака</td>
+            <td rowspan="2">Москва</td>
+        </tr>
+        <tr>
+            <td>Кошка</td>
+            <td colspan="3">Барсик</td>
+        </tr>
+    </table>
+	
+    <h2>10 вариант</h2>
+    <table>
+        <tr>
+            <td rowspan="2" colspan="2">Имя</td>
+            <td>Email</td>
+            <td>Город</td>
+        </tr>
+        <tr>
+            <td>user1@example.com</td>
+            <td>Москва</td>
+        </tr>
+        <tr>
+            <td colspan="2">Алексей</td>
+            <td>user2@example.com</td>
+            <td rowspan="2">Санкт-Петербург</td>
+        </tr>
+        <tr>
+            <td>Мария</td>
+            <td>user3@example.com</td>
+            <td>Казань</td>
+        </tr>
+    </table>
+
+    <h2>15 вариант</h2>
+    <table>
+        <tr>
+            <td colspan="5">Иван Петров, ул. Ленина, д. 10</td>
+        </tr>
+        <tr>
+            <td colspan="5">Анна Смирнова, пр. Победы, д. 25</td>
+        </tr>
+        <tr>
+            <td>Андрей Сидоров</td>
+            <td rowspan="2">ул. Гагарина</td>
+            <td rowspan="2">д. 7</td>
+            <td>Санкт-Петербург</td>
+            <td rowspan="3">Россия</td>
+        </tr>
+        <tr>
+            <td>Ольга Иванова</td>
+            <td rowspan="2">Казань</td>
+        </tr>
+        <tr>
+            <td colspan="3">Сергей Кузнецов, ул. Мира, д. 15</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

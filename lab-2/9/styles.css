@@ -1,0 +1,11 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 4px solid;
+    border-color: #aaa #000 #000 #aaa;
+    text-decoration: none;
+}
+
+.button:active {
+    border-color: #000 #aaa #aaa #000;
+}

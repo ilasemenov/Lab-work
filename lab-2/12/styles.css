@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    gap: 20px;
+}
+
+#my-first-div, #the-second-one {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+h3 {
+    font-size: 0.8rem;
+}

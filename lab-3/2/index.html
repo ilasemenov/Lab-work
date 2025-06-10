@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            position: relative;
+        }
+        img {
+            position: absolute;
+            z-index: 1;
+            width: 200px;
+        }
+        .text {
+            position: relative;
+            z-index: 2;
+            color: white;
+            background: rgba(0,0,0,0.5);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text">This text should appear in front of the image</p>
+        <img src="bg.jpg" alt="placeholder">
+    </div>
+</body>
+</html>

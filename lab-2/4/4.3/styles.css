@@ -1,0 +1,17 @@
+.coca-cola {
+    list-style-type: lower-alpha;
+}
+
+.pepsi {
+    list-style-type: square;
+}
+
+.healthy {
+    list-style-type: armenian;
+}
+
+.web-dev {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
